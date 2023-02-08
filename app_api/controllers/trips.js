@@ -1,7 +1,7 @@
 const mongoose = require('mongoose'); //.set('debug', true);
 const Model = mongoose.model('trips'); //import mongoose db library to schema
 
-//GET: /trips - list all trips
+//GET method: /trips - list all trips
 const tripsList = async (req, res) => {
     Model
         .find({}) // empty filter for all
