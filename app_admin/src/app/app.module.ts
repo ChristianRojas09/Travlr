@@ -9,6 +9,8 @@ import { TripListingComponent } from './trip-listing/trip-listing.component';
 import { TripCardComponent } from './trip-card/trip-card.component';
 import { TripDataService } from './services/trip-data.service';
 import { AddTripComponent } from './add-trip/add-trip.component';
+import { EditTripComponent } from './edit-trip/edit-trip.component';
+import { DeleteTripComponent } from './delete-trip/delete-trip.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { AddTripComponent } from './add-trip/add-trip.component';
     AppComponent,
     TripListingComponent,
     TripCardComponent,
-    AddTripComponent
+    AddTripComponent,
+    EditTripComponent,
+    DeleteTripComponent
   ],
   imports: [
     BrowserModule,
